@@ -1,0 +1,52 @@
+body{
+    background-color:#2e2a2a
+    
+}
+
+h1 {
+    color: rgb(207, 70, 70);
+    margin-left: 40%;
+}
+
+h2 {
+    color: rgb(223, 86, 86);
+}
+
+p {
+    color: #ff5b3e;
+}
+/* * {
+    border: solid;#
+} */
+
+img {
+    border: 10px solid rgb(231, 102, 102) ;
+    border-radius: 40px;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
